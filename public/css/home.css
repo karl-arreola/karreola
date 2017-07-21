@@ -1,0 +1,191 @@
+body {
+    text-align: center;
+    height: 100%;
+}
+
+/*  Options
+    background: url("/images/vancouver.jpg");
+    background-color: #000066;
+}*/
+
+.expdBtn {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 4px;
+}
+
+.expdBtn:hover {
+    background-color: #E2E2E2;
+}
+
+.glyphicon {
+    margin-right: 5px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.category {
+    border: #F2F2F2;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+.category-heading {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.category-body {
+    padding: 0% 8%;
+    padding-top: 10px;
+    text-align: left;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: black;
+}
+
+.backdrop {
+    margin-top: 50px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.backdrop img {
+    height: 600px;
+    margin: -160px 0 0 0;
+}
+
+.content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer {
+    margin: 20px;
+    font-size: 12px;
+}
+
+.navbar {
+    padding-left: 5%;
+    padding-right: 6%;
+    height: 40px;
+    display: flex;
+    align-items: stretch;
+}
+
+.navbar-left {
+    font-family:'Dancing Script';
+    font-size: 30px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-right {
+    flex: 9;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar a {
+    color: white;
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #4c4c93;
+    color: white;
+}
+
+.navbar-hamburger {
+    background-color: #000066;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    display: none;
+}
+
+#about {
+    margin-right: 20px;
+}
+
+.divClose {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    #aboutRow {
+        flex-direction: column;
+    }
+
+    #about {
+        margin-right: 0px;
+    }
+
+    .backdrop {
+        height: 165px;
+        overflow: hidden;
+    }
+
+    .backdrop img {
+        height: 395px;
+        margin: -100px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #aboutItemsRow {
+        flex-direction: column;
+    }
+
+    #skillsItemsRow {
+        flex-direction: column;
+    }
+
+    #linksCol {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 10px;
+    }
+
+    .navbar-left {
+        display: none;
+    }
+
+    .navbar-right {
+        justify-content: center;
+    }
+
+    .backdrop {
+        display: none;
+    }
+
+    .content {
+        margin-top: 50px;
+    }
+}

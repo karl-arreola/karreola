@@ -70,10 +70,10 @@
                                 </div>
 
                                 <div class="flex-col" style="align-items: flex-end;" id="linksCol" >
-                                    <a href="https://github.com/karl-arreola" target="_blank">
+                                    <a href="https://www.linkedin.com/in/karl-arreola-410183100/" target="_blank">
                                         <img src="{{ URL::asset('images/linkedin.png') }}" alt="LinkedIn Logo" height=50px/>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/karl-arreola-410183100/" target="_blank">
+                                    <a href="https://github.com/karl-arreola" target="_blank">
                                         <img src="{{ URL::asset('images/github.png') }}" alt="Github Logo" height=50px style="margin-top: 10px;"/>
                                     </a>
                                 </div>
@@ -150,7 +150,7 @@
                 <div class="category-body">
                     <div class="flex-row">
                         <div class="flex-col">
-                            <p><strong>Physiocards (1 month)</strong></p>
+                            <p><strong>PhysioCards (1 month)</strong></p>
                             <p>An exercise regimen web app where users can log in, view, and customize their exercise routine such as 
                             changing the sets, reps, duration, weights, and exercise schedule. New users can sign up, existing users can 
                             sign in, and account information is editable.</p>
